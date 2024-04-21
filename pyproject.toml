@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "zoink"
+version = "0.0.1"
+description = "Annoyingly pin one application on MacOS for a period of time"
+authors = ["John B Nelson <jbn@abreka.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tqdm = "^4.66.2"
+pyobjc = "^10.2"
+click = "^8.1.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+zoink = "zoink:main"
+

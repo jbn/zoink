@@ -105,7 +105,3 @@ def main(duration, app_name, delay):
         if app_name == "":
             time.sleep(3)
     focus_window(app_name or "", duration_seconds, delay)
-
-
-if __name__ == "__main__":
-    main()
